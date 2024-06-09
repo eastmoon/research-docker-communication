@@ -6,7 +6,7 @@
 
 ## 系統結構
 
-本項目僅考慮執行於 Linux 作業系統，因此會基於 VirtualBox 建立開發環境，並分享研究程式目錄。
+本項目僅考慮執行於 Linux 作業系統，因此會基於 VirtualBox 與 Vagrant 建立開發環境，並分享研究程式目錄。
 
 ```
 repository
@@ -14,6 +14,11 @@ repository
   └ conf\
   └ Vagrantfile
 ```
+
++ 啟動環境 ```vagrant up```
++ 進入環境 ```vagrant ssh```
++ 關閉環境 ```vagrant halt```
++ 移除環境 ```vagrant destroy -f```
 
 ## 通訊方式
 
